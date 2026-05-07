@@ -1,8 +1,9 @@
 .gradle/
-.gradle-9.5.0
+.gradle-9.5.0/
 build/
 out/
 run/
 *.iml
 .idea/
 .vscode/
+.env
