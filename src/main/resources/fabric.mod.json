@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ixskins",
+  "version": "${version}",
+  "name": "IX Skins",
+  "description": "LAN/client synced player skin override mod for Fabric loader ",
+  "authors": [
+    "devix7"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/ixskins/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.devix7.ixskins.IxSkins"
+    ],
+    "client": [
+      "dev.devix7.ixskins.client.IxSkinsClient"
+    ]
+  },
+  "mixins": [
+    "ixskins.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
