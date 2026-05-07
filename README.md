@@ -2,6 +2,8 @@
 
 The command requires prem lvl 2 (OP) on the server or cheats enabled on the LAN host.
 
+[![Showcase on YT](https://www.youtube.com/watch?v=FRQUPsiRqDM)](https://www.youtube.com/watch?v=FRQUPsiRqDM)
+
 ```mcfunction
 /ixskins set <player> player <username>
 /ixskins set <player> rawurl <url>
